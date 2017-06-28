@@ -1,0 +1,47 @@
+
+/* Quick Search */
+#search-results{
+width: calc(100% - 50px);
+margin-left: 50px;
+background: #ccc;
+line-height: 30px;
+border-radius: 0 0 10px 10px;
+}
+
+#search{
+border-radius: 0 10px 0 0;	
+}
+
+#search-results>p{
+padding-left: 10px;
+}
+#search-results>p:hover{
+	background:#337ab7;
+	color:#fff;
+}
+#search-results>p:last-child:hover{
+	border-radius: 0 0 10px 10px;
+}
+
+
+.added{
+background:red;
+}
+
+.my-row {
+    display: table;
+}
+
+.my-row .panel {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+#review-block{
+margin:20px 10px;
+border-bottom:1px  dashed gray;
+}
+
+.admin_options>a{
+padding:2px;
+}
